@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        link(rel="stylesheet", href="/public/css/bootstrap.min.css")
+        title Envianos un mensaje
+    body
+        .container-fluid
+            h1 Inicio
+            form.formSubmit
+                .row
+                    .col
+                        .form-group
+                            label( for='nombre') Nombre
+                            input.form-control(type="text", name="nombre" id='nombre')
+                    .col
+                        .form-group
+                            label( for='nombre') Apellido
+                            input.form-control(type="text", name="apellido" id='apellido')
+                .row
+                    .col
+                        .form-group
+                            label( for='email') Email
+                            input.form-control(type="email", name="email" id='email')
+                    .col
+                        .form-group
+                            label( for='telefono') Telefono
+                            input.form-control(type="text", name="telefono" id='telefono')
+                .row
+                    .col    
+                        .form-group
+                            label(for='pais') Pais
+                            input(type="text", name="pais" id='pais')
+

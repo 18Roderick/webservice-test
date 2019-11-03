@@ -1,0 +1,7 @@
+( () => {
+    Data: {}
+    Handlers
+    Methods: {
+
+    }
+})
