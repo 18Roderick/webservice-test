@@ -1,0 +1,27 @@
+{
+  "development": {
+    "host": "212.1.215.72",
+    "username": "artefami_testclau",
+    "password": "testclau123",
+    "database": "artefami_testclau",
+    "logging": false,
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  }
+}
