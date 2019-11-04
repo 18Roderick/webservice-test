@@ -9,23 +9,24 @@ html(lang="en")
         title Envianos un mensaje
     body
         .container-fluid
-            h1 Envianos un Mensaje
+            h1(align='center') Envianos un Mensaje
+            .js-message.alert( role="alert" )
             .card
                 form.formSubmit
                     .row
                         .col
                             .form-group
                                 label( for='nombre') Nombre
-                                input.form-control(type="text", name="nombre" id='nombre')
+                                input.form-control(type="text", name="nombre" id='nombre', required)
                         .col
                             .form-group
                                 label( for='apellido') Apellido
-                                input.form-control(type="text", name="apellido" id='apellido')
+                                input.form-control(type="text", name="apellido" id='apellido', required)
                     .row
                         .col
                             .form-group
                                 label( for='email') Email
-                                input.form-control(type="email", name="email" id='email')
+                                input.form-control(type="email", name="email" id='email', required)
                         .col
                             .form-group
                                 label( for='telefono') Telefono
@@ -39,7 +40,7 @@ html(lang="en")
                         .col    
                             .form-group
                                 label(for='mensaje') Mensaje
-                                textarea.form-control( cols="30", rows="10" name="mensaje" id='mensaje')
+                                textarea.form-control( cols="30", rows="5" require name="mensaje" id='mensaje')
                                 
                     .row
                         .col

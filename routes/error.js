@@ -12,7 +12,7 @@ router.use((req, res) => {
 
 router.use((err, req, res, next) => {
   console.error(err.stack);
-  res.json({
+  res.status(400).json({
     title: err.message,
     message: err.message,
     stack: err.stack
