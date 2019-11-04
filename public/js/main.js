@@ -21,7 +21,6 @@
         App.Methods.sendMessage();
       }
     },
-    Exceptions: {},
     Methods: {
       init: function() {
         App.Controls.form.addEventListener("submit", App.Events.onSubmit);
